@@ -4,6 +4,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const message = document.getElementById("message");
 
     button.addEventListener("click", () => {
-        message.textContent = "Thanks !";
+        message.textContent = "Thanks for joining! We’ll be in touch soon.";
     });
 });
