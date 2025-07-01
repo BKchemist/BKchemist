@@ -7,3 +7,17 @@ document.addEventListener("DOMContentLoaded", () => {
         message.textContent = "Thanks for joining! We’ll be in touch soon.";
     });
 });
+
+//footer script
+document.getElementById('newsletter-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+  const email = document.getElementById('email').value.trim();
+  
+  if (email) {
+    alert(`Thanks for subscribing, ${email}!`);
+    this.reset();
+  } else {
+    alert('Please enter a valid email.');
+  }
+});
+
