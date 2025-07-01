@@ -11,6 +11,7 @@ body {
 }
 
 .container {
+    max-width: 800px;
     text-align: center;
     background-color: white;
     padding: 2rem;
@@ -18,8 +19,50 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
+h1 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.intro {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 2rem;
+}
+
+.features {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+.features h2 {
+    color: #007BFF;
+    margin-bottom: 1rem;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+    color: #333;
+}
+
+.features li {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+
+.cta h2 {
+    color: #007BFF;
+}
+
+.cta p {
+    margin-bottom: 1rem;
+    color: #444;
+}
+
 button {
-    padding: 0.5rem 1rem;
+    padding: 0.6rem 1.2rem;
     font-size: 1rem;
     background-color: #007BFF;
     color: white;
@@ -30,4 +73,10 @@ button {
 
 button:hover {
     background-color: #0056b3;
+}
+
+#message {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: green;
 }
