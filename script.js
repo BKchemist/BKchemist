@@ -9,10 +9,10 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 //footer script
-document.getElementById('newsletter-form').addEventListener('submit', function(e) {
+document.getElementById('newsletter-form').addEventListener('submit', function (e) {
   e.preventDefault();
   const email = document.getElementById('email').value.trim();
-  
+
   if (email) {
     alert(`Thanks for subscribing, ${email}!`);
     this.reset();
@@ -20,4 +20,3 @@ document.getElementById('newsletter-form').addEventListener('submit', function(e
     alert('Please enter a valid email.');
   }
 });
-
