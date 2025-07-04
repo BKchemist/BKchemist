@@ -122,4 +122,13 @@ body {
 img{
   width:100%;
 }
+
 /*Nav bar*/
+.navbar {
+  padding: 20px;
+  background-color: baige;
+  text-decoration: none;
+}
+.navbar a:hover{
+  background-color: gold;
+}
